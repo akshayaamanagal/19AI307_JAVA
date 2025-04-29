@@ -1,44 +1,57 @@
-# Ex.No:1(E)  STATIC VARIABLE
+# Ex.No:1(E)  Instance Method
 
 ## AIM:
-To write a Java program to print student details (name and age), where age is the same for all students. Use a static variable to represent the age and demonstrate its use in accessing a shared value across all class objects
+To write a Java program using instance method  to find out if given number is multiples of 3 or not. 
 
-## ALGORITHM :
-1.	Start the program.
-2.	Create a class named Student.
-3.	Declare a static variable age in the Student class.
-4.	Declare an instance variable name.
-5.	Create a constructor to initialize the student's name.
-6.	Define a method displayDetails() to print the student's name and age.
-7.	In the main method:
-I.	Assign a value to the static variable age.
-II.	Create multiple Student objects with different names.
-III.	Call the displayDetails() method for each student.
-8.	End the program.
+## ALGORITHM:
 
-
+1. A class named `Age` is defined.
+2. An integer variable `n` is declared in the class.
+3. The method `check()` is defined to perform the logic.
+4. Inside `check()`, a `Scanner` object is created to read input from the user.
+5. The input is stored in variable `n`.
+6. It checks whether `n` is divisible by 3 using `n % 3 == 0`.
+7. If the condition is true, it prints `"Yes"`; otherwise, it prints `"No"`.
+8. The `main()` method is defined to create an object `obj` of the class `Age`.
+9. The `check()` method is called using the object to execute the logic.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber:  212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```java
+import java.util.*;
+public class Age {
+    int n;
+    void check()
+    {
+        Scanner sc = new Scanner(System.in);
+        n= sc.nextInt();
+        if(n%3==0)
+        {
+           System.out.println("Yes");
+        }
+        else
+        {
+           System.out.println("No");
+        }
+    }
+    public static void main(String[] args) {
+       Age obj=new Age();
+       obj.check();
+    }
+}
+```
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/3a79ed8b-6b56-4e55-818a-f1445cfe6fef)
 
 
 ## RESULT:
-Thus, the Java program for the concept of using a static variable for shared data was correctly implemented and verified successfully. 
+Thus, the Java program for the concept of using instance method  to find out if given number is multiples of 3 or not was correctly implemented and verified successfully. 
 
