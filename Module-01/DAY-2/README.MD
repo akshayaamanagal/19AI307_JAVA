@@ -45,6 +45,7 @@ public class Demo
 ```
 ## OUTPUT:
 
+
 !["C:\Users\SEC\Pictures\AAI\java\Screenshot 2025-04-29 215601.png"](2.png)
 
 ## RESULT:
