@@ -45,7 +45,6 @@ public class Demo
 ```
 ## OUTPUT:
 
-
 !["C:\Users\SEC\Pictures\AAI\java"](2.png)
 
 ## RESULT:
