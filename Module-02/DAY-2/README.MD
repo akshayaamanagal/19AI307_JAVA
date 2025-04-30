@@ -21,8 +21,8 @@ b)	Call the `display(8, 9)` method on the `ad` object
  ```
 /*
 Program to implement a access modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
@@ -49,7 +49,7 @@ public class A
 
 ## OUTPUT:
 
-
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/15f0ab44b1cec536061c0b7703f0c59b325c14ef/Module-02/DAY-2/Screenshot%202025-04-30%20104448.png)
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
