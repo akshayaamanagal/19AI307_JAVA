@@ -20,12 +20,6 @@ To create  a Java program to perform the inheritance concept for employee detail
 5.	End
 
 
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
@@ -74,7 +68,7 @@ public class Main
 
 ## OUTPUT:
 
-
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/f2a5f3e569b5d692ba1bce63c0e30cde42c9dd68/Module-04/DAY-2/Screenshot%202025-04-30%20211707.png)
 
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
