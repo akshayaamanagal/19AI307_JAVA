@@ -4,6 +4,7 @@
 To create a java program using StringTokenizer class that tokenizes a string "My name is Java Programming" on the basis of whitespace.
 
 ## ALGORITHM :
+
 1.	Start the Program
 2.	Import `Scanner` and `StringTokenizer` and define class `tok`
 3.	In `main`:
@@ -14,28 +15,35 @@ To create a java program using StringTokenizer class that tokenizes a string "My
 -	a) Print each token using `token.nextToken()`
 6.	End
 
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String Tokenizer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.StringTokenizer;
 
+public class TokenizeString {
+    public static void main(String[] args) {
+        String input = "My name is Java Programming";
 
+        StringTokenizer tokenizer = new StringTokenizer(input);
 
-
-
-
+        while (tokenizer.hasMoreTokens()) {
+            System.out.println(tokenizer.nextToken());
+        }
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/692ee72d-820f-4022-b829-b2554cca45be)
 
 
 ## RESULT:
