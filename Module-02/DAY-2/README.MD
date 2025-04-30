@@ -17,11 +17,6 @@ a)	Create an instance of the `addition` class called `ad`
 b)	Call the `display(8, 9)` method on the `ad` object
 7.	End
 
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
@@ -33,11 +28,24 @@ RegisterNumber:
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```java
+public class A
+{
+    private void display()
+    {
+        int n1 = 8;
+        int n2 = 9;
+        int add = n1+n2;
+        System.out.println(add);
+    }
+    
+    public static void main(String [] args)
+    {
+        A obj = new A();
+        obj.display();
+    }
+}
+```
 
 ## OUTPUT:
 
