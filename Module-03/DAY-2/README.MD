@@ -40,7 +40,7 @@ public static void main(String[ ] args)
 ```
 ## OUTPUT:
 
-
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/a5dfdd05bd0b908b2c74b73d09320d118537043c/Module-03/DAY-2/Screenshot%202025-04-30%20142303.png)
 
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.
