@@ -4,44 +4,55 @@
 To Create a Java program to implement super keyword in constructor.
 
 ## ALGORITHM :
-1.  Start the Program.
-2.	Define class `College`:
--	a) Define method `display()` that prints "I am a Vehicle"
-3.	Define class `Student` that extends `College`:
--	a) Override method `display()` to print "I am a Car"
--	b) Define method `print()`:
--	i) Call `super.display()` to invoke `display()` from `College` class
--	ii) Call `this.display()` to invoke `display()` from `Student` class
-4.	Define `Main` class with `main` method:
--	a) Create a `Student` object `sc`
--	b) Call `sc.print()` to execute the `print()` method
-5.	End
 
-
-
-
-
+1. Define a class `Vehicle` with a constructor that prints `"I am a Vehicle"`.  
+2. Define a class `Car` that extends the `Vehicle` class (i.e., inherits from it).  
+3. In the `Car` constructor, call the `super()` method to invoke the `Vehicle` constructor.  
+4. After calling the parent constructor, print `"I am a Car"` from the `Car` constructor.  
+5. In the `Main` class, define the `main()` method.  
+6. Inside `main()`, create an instance of the `Car` class named `c`.  
+7. The creation of the `Car` object triggers both the `Vehicle` and `Car` constructors in order.  
+8. As a result, `"I am a Vehicle"` is printed first, followed by `"I am a Car"`.  
 
 
 ## PROGRAM:
  ```
 /*
 Program to implement a Constructor Chaining using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
+```java
+class Vehicle {
 
+  Vehicle()
+  {
+      System.out.println("I am a Vehicle");
+  }
+}
 
-
-
-
-
-
+class Car extends Vehicle {
+    
+    Car()
+    {
+        super();
+        System.out.println("I am a Car");
+    }
+}
+public class Main {
+  public static void main(String[] args) {
+      
+      Car c = new Car();
+  
+  }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/007e2086-5c91-4215-9aca-065ea6b9b956)
 
 
 ## RESULT:
