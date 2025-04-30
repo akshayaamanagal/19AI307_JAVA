@@ -11,7 +11,7 @@ To write a Java program that reads an array size and elements from the user and 
 5.	Initialize a variable temp with the first element of the array.
 6.	Traverse the array using a loop.
 7.	Compare each element with temp. If an element is larger, update temp.
-8.	After the loop ends, print the smallest number.
+8.	After the loop ends, print the largest number.
 9.	End the program.
 	
 
