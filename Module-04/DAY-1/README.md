@@ -69,4 +69,4 @@ public class CopyConstructor
 ![image](https://github.com/user-attachments/assets/0994c773-3a4f-4807-81fe-070ff954b4c1)
 
 ## RESULT:
-Thus the Java program using constructor to print the circumference of rectangle was executed successfully.
+Thus the Java program using constructor to print the area of rectangle was executed successfully.
