@@ -24,21 +24,52 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+class Parent 
+{
+    void display()
+    {
+        System.out.println("This is Parent Class");
+    }
+}
+class  Child1
+{
+    void print()
+    {
+        System.out.println("This is Child1 Class");
+    }
+}
+class Child2
+{
+    void print()
+    {
+        System.out.println("This is Child2 Class");
+    }
+}
+public class main
+{
+    public static void main(String args[])
+    {
+        Parent p=new Parent();
+        p.display();
+        Child1 c1=new Child1();
+        c1.print();
+        p.display();
+        Child2 c2=new Child2();
+        c2.print();
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/bd47481a-5ebd-4b8e-8e70-448ca5e7ea92)
 
 
 ## RESULT:
