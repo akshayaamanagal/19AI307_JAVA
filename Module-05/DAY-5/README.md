@@ -1,43 +1,67 @@
-# Ex.No:5(E) HAS-A RELATIONSHIP
+# Ex.No:5(E) GETTER AND SETTER METHOD
 ## AIM:
-To implement a  Java Program to Find the Largest or Max Number in Array using has - a relationship.
+To implement a java program for square of given numbers using getter and setter method.
 ## ALGORITHM :
-1.	Start the program.
-2.	Create a class ArrayData:
-a.	Declare an integer array and a variable for size.
-b.	Create a method to read array elements from the user.
-3.	Create another class ArrayOperation:
-a.	Create a method findMax() that accepts an ArrayData object.
-b.	Loop through the array and find the largest element.
-4.	In the main() method of a class Main:
-a.	Create an object of ArrayData and read the input.
-b.	Create an object of ArrayOperation and call findMax() by passing the ArrayData object.
-5.	Display the largest number.
-6.	End the program.
 
+1. Import Scanner for taking user input.
 
+2. Create a class named `Square`.
 
+3. Inside `Square`, make:
+
+   * A variable to store a number.
+   * A method to set the number.
+   * A method to print its square.
+
+4. In the `main` class:
+
+   * Take input from the user.
+   * Set the number using the `Square` object.
+   * Print the square using the `get()` method.
+   * 
 ## PROGRAM:
  ```
 /*
 Program to implement a HAS-A RelationShip
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```java
+import java.util.*;
+class Square
+{
+    private int n;
+    
+    public void set(int n)
+    {
+        this.n=n;
+    }
+    
+    public void get()
+    {
+        int sqr = n * n;
+        System.out.println("Square of "+n+" is: "+sqr);
+    }
+}
+public class main
+{
+    public static void main(String [] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Square s = new Square();
+        s.set(sc.nextInt());
+        s.get();
+    }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/a19e4497-13ef-40ae-a4a0-97f7e661cbea)
 
 
 ## RESULT:
-Thus the java program to Find the Largest or Max Number in Array using has - a relationship was executed successfully. 
+Thus the java program for square of given numbers using getter and setter method was executed successfully. 
 
