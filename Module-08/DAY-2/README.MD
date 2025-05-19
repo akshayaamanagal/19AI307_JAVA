@@ -43,7 +43,7 @@ catch(Exception e)
 
 ## OUTPUT:
 
-![image](
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/30046fcce69c38ae56989fd01721dd79977e6181/Module-08/DAY-2/image.png)
 ## RESULT:
 Thus, the java program to append a String in a file “testout.txt” using Writer.was executed and verified successfully
 
