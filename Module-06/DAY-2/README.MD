@@ -1,7 +1,7 @@
 # Ex.No:6(B) MULTI-LEVEL INHERITANCE
 
 ## AIM:
-To Develop a Java program to perform Multilevel Inheritance to calculate the area of circle..
+To Develop a Java program to perform Multilevel Inheritance to print student details.
 
 ## ALGORITHM :
 
@@ -30,8 +30,8 @@ To Develop a Java program to perform Multilevel Inheritance to calculate the are
  ```
 /*
 Program to implement a MultiLevel Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009 
 */
 ```
 
