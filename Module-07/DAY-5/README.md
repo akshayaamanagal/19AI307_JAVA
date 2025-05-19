@@ -35,7 +35,7 @@ RegisterNumber: 212222230009
 ```
 
 ## Sourcecode.java:
-```
+```java
 import java.util.*;
 public class Multi extends Thread
     {  
