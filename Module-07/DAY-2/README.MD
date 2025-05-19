@@ -70,8 +70,7 @@ public class HelloWorld {
 
 ## OUTPUT:
 
-
-
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/88c0aa692eb41a2ec8115d49dd268cc7809ea4a4/Module-07/DAY-2/image.png)
 ## RESULT:
 Thus the Java program to demonstrate control flow of try-catch-finally clause when ArrayIndexOutOfBoundsException occur in try block and handled in catch block was executed successfully.
 
