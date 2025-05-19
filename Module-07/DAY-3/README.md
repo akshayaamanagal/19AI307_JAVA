@@ -25,21 +25,38 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+import java.util.*;
+public class Threadrun extends Thread{
+    private String name;
+    Threadrun(String name)
+    {
+        this.name=name;
+    }
+    public void run()
+    {
+        Thread.currentThread().setName(name);
+        System.out.print("Thread Name:"+Thread.currentThread().getName());
+    }
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        Threadrun t=new Threadrun(name);
+        t.start();
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/3b92cb5e-17da-436b-ba0a-dc865e665537)
 
 
 ## RESULT:
