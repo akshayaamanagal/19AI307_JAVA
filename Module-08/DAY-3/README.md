@@ -5,11 +5,11 @@
 
 ## ALGORITHM :
 1.  Start the Program
-2.  Define CustomFilterReader1, extending FilterReader, and override the read() method to replace spaces with $ while reading.
+2.  Define CustomFilterReader1, extending FilterReader, and override the read() method to replace spaces with + while reading.
 2.	In main(), create a FileOutputStream and a FilterOutputStream to write "India is my country" to a file named javaFile123.txt.
 3.	Write the string to the file using filter.write(), then close the FilterOutputStream.
 4.	Create a FileReader to read from javaFile123.txt, and wrap it with CustomFilterReader1.
-5.	Read and print each character, where spaces are replaced with $, until the end of the file.
+5.	Read and print each character, where spaces are replaced with +, until the end of the file.
 6.	Close CustomFilterReader1 and FileReader to free resources
 
 
@@ -17,21 +17,33 @@
  ```
 /*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+class CustomFilterReader1 extends FilterReader
+{
+    CustomFilterReader1(Reader in)
+    {
+        super(in);
+    }
+    public int read() throws IOException
+    {
+        int x = super.read();
+        if((char)x==' ')
+        return ((int)'+');
+        else
+        return x;
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/93cccd87-b8ed-4582-a935-fb805d08092d)
 
 
 ## RESULT:
