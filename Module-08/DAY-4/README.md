@@ -19,22 +19,31 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M 
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```java
+     FileInputStream f=new FileInputStream("sample.txt");
+       BufferedInputStream b=new BufferedInputStream(f);
+       Scanner sc=new Scanner(System.in);
+       int s=sc.nextInt();
+       b.skip(s);
+    
+    System.out.println("Contents after skipping"+" "+s+" "+"bytes:");
+    int a=0;
+    while((a=b.read())!= -1)
+    System.out.print((char)a);
+    b.close();
+    f.close();
+```
 
 ## OUTPUT:
 
 
+![Screenshot 2025-05-22 112246](https://github.com/user-attachments/assets/ad345ba5-39bc-4239-a0bc-2ecee944b09f)
 
 ## RESULT:
 Thus, the java program file for displaying the data from the file after skip method using FileInputStream & BufferedInputStream was executed and done successfully.
