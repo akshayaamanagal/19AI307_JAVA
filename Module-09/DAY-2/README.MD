@@ -46,7 +46,7 @@ public class ByteArrayOutputExample {
 
 ## OUTPUT:
 
-
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/7bece0e2c914fbc82b10781ffe29407ea778523e/Module-09/DAY-2/image.png)
 
 ## RESULT:
 Thus, java program to write data using ByteArrayOutputStream was executed and verified successfully.
