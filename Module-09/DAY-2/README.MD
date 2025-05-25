@@ -4,31 +4,45 @@ To create a java program to write data using ByteArrayOutputStream.
 
 
 ## ALGORITHM :
-1.	The user enters a string (data), followed by two integers (start and length) specifying the starting position and number of characters to write.
-2.	The string data is converted to a byte array (array).
-3.	Using ByteArrayOutputStream, it writes length bytes from array, starting at start.
-4.	The written data is retrieved as a string (streamData) and displayed, showing the original input and the specific segment written to the stream.
-5.	Any exceptions are caught and handled, displaying stack trace information if an error occurs.
 
-
-
+1. Define a string `input` with some text.
+2. Create a `ByteArrayOutputStream` object.
+3. Convert the input string into bytes using `getBytes()`.
+4. Write the byte data into the byte array output stream.
+5. Convert the output stream back to a string and print it.
+6. If an exception occurs, display an error message.
 
 ## PROGRAM:
  ```
 /*
 Program to implement a BYTE ARRAY I/O using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.util.Scanner;
 
+public class ByteArrayOutputExample {
+    public static void main(String[] args) {
 
+        String input = "This is a line of text inside the string.";
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 
+        try {
+            byteArrayOutputStream.write(input.getBytes());
 
-
-
+            System.out.println("Output stream: " + byteArrayOutputStream.toString());
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing to the output stream.");
+        } 
+    }
+}
+```
 
 ## OUTPUT:
 
