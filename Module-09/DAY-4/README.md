@@ -17,21 +17,31 @@
  ```
 /*
 Program to implement a Transient using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009 
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
+```java
+import java.io.*;
+class Employeeinfo implements Serializable
+{
+    String name;
+    transient String desi;
+    Employeeinfo(String n, String r)
+    {
+    this.name = n;
+    this.desi = r;
+   
+    }
+}
+```
 
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/990ef410-5694-47ce-b3c1-061d0a6255b1)
 
 
 ## RESULT:
