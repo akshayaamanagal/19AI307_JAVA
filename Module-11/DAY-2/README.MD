@@ -63,7 +63,7 @@ System.out.println("Size of Map: " + map.size());
 ```
 ## OUTPUT:
 
-![image](
+![image](https://github.com/akshayaamanagal/19AI307_JAVA/blob/dc7f1a81b9ec085cdd3ee9faa16bee953a0ab64c/Module-11/DAY-2/image.png)
 
 ## RESULT:
 Thus the java program to retrieve the key and value from hashtable for all input value was executed successfully.
