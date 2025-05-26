@@ -23,14 +23,39 @@ c)	Use a `for` loop to read `n2` strings and add each to `vector2`.
  ```
 /*
 Program to implement a JAVA STACK & VECTOR  using Java
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber:  212222230009
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
+public class main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        Vector<String> v=new Vector<>();
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            v.add(sc.next());
+            v.add(sc.next());
 
-
+        }
+        System.out.println("The vector is: "+v);
+        Enumeration e=v.elements();
+        System.out.println("The enumeration of values are:");
+        while(e.hasMoreElements())
+        {
+            System.out.println(e.nextElement());
+        }
+       
+    }
+    
+}
+```
 
 
 
@@ -38,6 +63,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/dad713c3-4954-4379-bab9-35adc11301e9)
 
 
 ## RESULT:
