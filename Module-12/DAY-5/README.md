@@ -15,21 +15,40 @@ To demonstrate how to remove and display the first element from a Deque using th
  ```
 /*
 Program to implement a JAVA DEQUEUE
-Developed by: 
-RegisterNumber:  
+Developed by: AKSHAYAA M
+RegisterNumber: 212222230009 
 */
 ```
 
 ## Sourcecode.java:
+```java
+import java.util.*;
+public class main
+{
+    public static void main(String args[])
+    {
+        Deque<String> dq=new ArrayDeque<>();
 
-
-
-
-
-
+       Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++)
+        {
+            String a=sc.next();
+            dq.add(a);
+        }
+        System.out.println("Display the element of Dequeue:");
+        System.out.println(dq);
+        dq.removeLast();
+        System.out.println(dq);
+     
+        
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/8fb16a4d-a2c4-437a-9d60-f9af04c66625)
 
 
 ## RESULT:
